@@ -2135,31 +2135,32 @@ div#confirmacion {
   background: url(images/bg10.jpg) no-repeat;
   background-size: cover;
 }
-@media (max-width: 900px) and (min-height: 700px) {
+@media (max-width: 600px) and (min-height: 700px) {
   div#confirmacion {
     background-position: 0 10vh;
   }
 }
-@media (min-width: 70px) {
+@media (min-width: 1200px) {
   div#confirmacion {
     width: 35vw !important;
   }
 }
 div#confirmacion .confirmacion_imagen {
   top: auto;
+  left: auto;
   width: 100vw;
-  height: 52vh;
+  height: 51vh;
   background: url(images/4.jpg) no-repeat;
   background-size: 100% auto;
 }
-@media (max-width: 900px) (min-width: 700px) {
+@media (min-width: 600px) {
   div#confirmacion .confirmacion_imagen {
     background: url(images/4.jpg) no-repeat;
   }
 }
-@media (min-width: 700px) {
+@media (min-width: 1200px) {
   div#confirmacion .confirmacion_imagen {
-    width: 35vw !important;
+    width: 35vw;
   }
 }
 div#confirmacion .mascara2 {
