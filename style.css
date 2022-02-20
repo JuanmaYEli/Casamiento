@@ -2147,13 +2147,12 @@ div#confirmacion {
 }
 div#confirmacion .confirmacion_imagen {
   top: auto;
-  left: auto;
   width: 100vw;
   height: 52vh;
   background: url(images/4.jpg) no-repeat;
   background-size: 100% auto;
 }
-@media (min-width: 700px) {
+@media (max-width: 900px) (min-width: 700px) {
   div#confirmacion .confirmacion_imagen {
     background: url(images/4.jpg) no-repeat;
   }
@@ -2224,7 +2223,7 @@ div#confirmacion .confirmacion_boton .btn {
 div#logo {
   width: 100vw;
   height: 100vh;
-  background: url(../images/bg11.jpg) no-repeat;
+  background: url(../images/bg9.jpg) no-repeat;
   background-size: cover;
 }
 @media (min-width: 1200px) {
