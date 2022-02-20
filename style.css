@@ -1693,7 +1693,7 @@ div#fecha .fecha_imagen {
   left: auto;
   width: 100vw;
   height: 51vh;
-  background: url(images/2.jpg) no-repeat;
+  background: url(images/6.jpg) no-repeat;
   background-size: 100% auto;
 }
 @media (min-width: 600px) {
@@ -1823,7 +1823,6 @@ div#ceremonia .banda {
     width: 25vw;
   }
 }
-/* TODO: EDITAR TAMAÑO DE FOTO*/
 div#ceremonia .ceremonia_imagen {
   width: 70vw;
   height: 50vh;
@@ -2154,7 +2153,7 @@ div#confirmacion .confirmacion_imagen {
   background: url(images/4.jpg) no-repeat;
   background-size: 100% auto;
 }
-@media (min-width: 1200px) {
+@media (min-width: 700px) {
   div#confirmacion .confirmacion_imagen {
     background: url(images/4.jpg) no-repeat;
   }
@@ -2188,7 +2187,7 @@ div#confirmacion .confirmacion_texto {
   padding: 0 12vw;
   margin-top: 3vh;
 }
-@media (max-width: 600px) and (min-height: 700px) {
+@media (min-height: 700px) {
   div#confirmacion .confirmacion_texto {
     margin-top: 1vh;
   }
